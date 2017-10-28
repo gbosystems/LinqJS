@@ -4,5 +4,4 @@
 # Ignore generated outputs
 /bin/*
 /obj/*
-/wwwroot/dist/*
 /wwwroot/test/*

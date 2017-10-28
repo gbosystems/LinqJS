@@ -1,0 +1,1 @@
+{"version":3,"sources":["ArrayImpl/Array.Cast.ts"],"names":[],"mappings":"AAAA,KAAK,CAAC,SAAS,CAAC,IAAI,GAAG;IACtB,MAAM,CAAC,IAAI,CAAC;AACb,CAAC,CAAC","file":"Array.Cast.js","sourcesContent":["Array.prototype.cast = function (): any[] {\r\n\treturn this;\r\n};"]}

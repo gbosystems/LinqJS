@@ -1,0 +1,1 @@
+{"version":3,"sources":["ArrayImpl/Array.Empty.ts"],"names":[],"mappings":"AAAA,KAAK,CAAC,SAAS,CAAC,KAAK,GAAG;IACvB,MAAM,CAAC,EAAE,CAAC;AACX,CAAC,CAAA","file":"Array.Empty.js","sourcesContent":["Array.prototype.empty = function() : Array<any> {\r\n\treturn [];\r\n}"]}
