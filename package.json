@@ -1,17 +1,21 @@
 {
-  "name": "linqjs",
-  "version": "1.0.0",
-  "description": "Linq for Javascript",
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-  "scripts": {
-    "test": "test.js"
-  },
-  "keywords": [
-    "linq"
-  ],
-  "author": "Geoff O'Donnell",
-  "license": "ISC",
+	"name": "linqjs",
+	"version": "1.0.0",
+	"description": "Linq for Javascript",
+	"main": "./wwwroot/dist/index.js",
+	"types": "./wwwroot/dist/index.d.ts",
+	"scripts": {
+		"test": "test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gbosystems/LinqJS.git"
+	},
+	"keywords": [
+		"linq"
+	],
+	"author": "Geoff O'Donnell",
+	"license": "ISC",
 	"devDependencies": {
 		"typescript": "2.5.3",
 		"gulp": "3.9.1",

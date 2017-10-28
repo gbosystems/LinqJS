@@ -18,6 +18,7 @@
 	  <Content Remove="node_modules\**" />
 	</ItemGroup>
 	<ItemGroup>
+	  <Content Remove="src\Linq\index.ts" />
 	  <Content Remove="src\Linq\OrderedArrayImpl\Array.ThenBy.ts" />
 	  <Content Remove="src\Linq\OrderedArrayImpl\Array.ThenByDescending.ts" />
 	  <Content Remove="src\Linq\Sorter.ts" />
@@ -66,6 +67,7 @@
     <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.TakeWhile.ts" />
     <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Union.ts" />
     <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Where.ts" />
+    <TypeScriptCompile Include="src\Linq\index.ts" />
     <TypeScriptCompile Include="src\Linq\OrderedArrayImpl\Array.ThenByDescending.ts" />
     <TypeScriptCompile Include="src\Linq\Sorter.ts" />
     <TypeScriptCompile Include="src\Linq\IComparer.ts" />
