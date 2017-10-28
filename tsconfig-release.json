@@ -1,0 +1,17 @@
+﻿{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "none",
+		"jsx": "react",
+		"typeRoots": [ "node_modules/@types" ],
+		"moduleResolution": "node",
+		"outFile": "wwwroot/js/app.js",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"declaration": true,
+		"removeComments": true
+	},
+	"include": [ "./src/**/*.ts*" ],
+	"exclude": [ "wwwroot", "test", "node_modules" ],
+	"compileOnSave": false
+}

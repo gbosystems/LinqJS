@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+	<!-- 1a) Disable Typescript -->
+	<PropertyGroup>
+		<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+	</PropertyGroup>
+	
+	<!-- 1b) Disable Typescript -->
+	<ItemGroup>
+		<Content Include="src\**\*.ts" Exclude="$(GlobalExclude)" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Remove="node_modules\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Remove="src\Linq\OrderedArrayImpl\Array.ThenBy.ts" />
+	  <Content Remove="src\Linq\OrderedArrayImpl\Array.ThenByDescending.ts" />
+	  <Content Remove="src\Linq\Sorter.ts" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\Linq\Array.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Aggregate.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.All.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Any.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Average.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Cast.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Concat.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Contains.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Count.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.DefaultIfEmpty.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Distinct.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.ElementAt.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.ElementAtOrDefault.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Empty.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Except.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.First.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.FirstOrDefault.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.GroupBy.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.InnerJoin.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Intersect.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Max.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Min.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.OrderBy.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.OrderByDescending.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Reverse.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Select.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.SelectMany.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.SequenceEqual.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Single.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.SingleOrDefault.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Skip.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.SkipWhile.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Sum.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Take.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.TakeWhile.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Union.ts" />
+    <TypeScriptCompile Include="src\Linq\ArrayImpl\Array.Where.ts" />
+    <TypeScriptCompile Include="src\Linq\OrderedArrayImpl\Array.ThenByDescending.ts" />
+    <TypeScriptCompile Include="src\Linq\Sorter.ts" />
+    <TypeScriptCompile Include="src\Linq\IComparer.ts" />
+    <TypeScriptCompile Include="src\Linq\IEqualityComparer.ts" />
+    <TypeScriptCompile Include="src\Linq\IGrouping.ts" />
+    <TypeScriptCompile Include="src\Linq\OrderedArray.ts" />
+    <TypeScriptCompile Include="src\Linq\OrderedArrayImpl\Array.ThenBy.ts" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+{
+  "name": "linqjs",
+  "version": "1.0.0",
+  "description": "Linq for Javascript",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "linq"
+  ],
+  "author": "Geoff O'Donnell",
+  "license": "ISC",
+	"devDependencies": {
+		"typescript": "2.5.3",
+		"gulp": "3.9.1",
+		"del": "2.2.2",
+		"gulp-typescript": "3.1.5",
+		"gulp-sourcemaps": "2.4.1",
+		"merge2": "1.0.3",
+		"gulp-watch": "4.3.11",
+		"gulp-plumber": "1.1.0"
+	}
+}

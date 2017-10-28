@@ -1,0 +1,18 @@
+﻿{
+	"compilerOptions": {
+		"baseUrl": "./src/Linq",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es5",
+		"jsx": "react",
+		"typeRoots": [ "node_modules/@types" ],
+		"sourceMap": true,
+		"skipDefaultLibCheck": true,
+		"noImplicitAny": false,
+		"declaration": true,
+		"removeComments": true
+	},
+	"include": [ "./src/**/*.ts*" ],
+	"exclude": [ "wwwroot", "test", "node_modules" ],
+	"compileOnSave": false
+}
